@@ -33,7 +33,7 @@ public class UpdateServlet extends HttpServlet {
 	
 	protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 	try {
-		String title=request.getParameter("tittle");
+		String title=request.getParameter("title");
 		String content=request.getParameter("content");
 	
 		  Configuration cfg=new Configuration();
